@@ -37,6 +37,7 @@ android {
 
 task instrumentTest(dependsOn: connectedCheck)
 
+/*
 task apklib(type: Zip) {
     dependsOn 'check'
     appendix = extension = 'apklib'
@@ -133,3 +134,4 @@ def modifyPom(pom) {
         }
     }
 }
+*/
